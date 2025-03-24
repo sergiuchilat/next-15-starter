@@ -1,0 +1,142 @@
+{
+  "schedule": {
+    "sidebar": "Расписание",
+    "breadcrumb": "Ваше расписание"
+  },
+  "gradebooks": {
+    "sidebar": "Журналы",
+    "breadcrumb": "Ваши журналы"
+  },
+  "organigram": {
+    "sidebar": "Органограмма",
+    "breadcrumb": "Организационная структура",
+    "faculties": {
+      "sidebar": "Факультеты",
+      "breadcrumb": "Факультеты университета",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Создание факультета"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование факультета"
+      }
+    },
+    "specialities": {
+      "sidebar": "Специальности",
+      "breadcrumb": "Специальности",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление специальности"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование специальности"
+      }
+    }
+  },
+  "study-process": {
+    "sidebar": "Учебный процесс",
+    "breadcrumb": "Учебный процесс",
+    "study-groups": {
+      "sidebar": "Учебные группы",
+      "breadcrumb": "Все учебные группы",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление учебной группы"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование учебной группы"
+      }
+    },
+    "study-disciplines": {
+      "sidebar": "Учебные дисциплины",
+      "breadcrumb": "Учебные дисциплины",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление учебной дисциплины"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование учебной дисциплины"
+      }
+    },
+    "study-plans": {
+      "sidebar": "Учебные планы",
+      "breadcrumb": "Учебные планы",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление учебного плана"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование учебного плана"
+      }
+    },
+    "study-curriculums": {
+      "sidebar": "Учебные программы",
+      "breadcrumb": "Список учебных программ",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление учебной программы"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование учебной программы"
+      }
+    },
+    "students-enrolments": {
+      "sidebar": "Запись студентов",
+      "breadcrumb": "Запись студентов в группы",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Записать студента в группу"
+      }
+    }
+  },
+  "hr": {
+    "sidebar": "Человеческие ресурсы",
+    "breadcrumb": "Человеческие ресурсы",
+    "teachers": {
+      "sidebar": "Преподаватели",
+      "breadcrumb": "Преподавательский состав (учителя)",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление преподавателя"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование преподавателя"
+      }
+    },
+    "students": {
+      "sidebar": "Студенты",
+      "breadcrumb": "База данных студентов",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление студента"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование студента"
+      }
+    }
+  },
+  "system": {
+    "sidebar": "Система",
+    "breadcrumb": "Управление системой",
+    "users": {
+      "sidebar": "Пользователи",
+      "breadcrumb": "Администрирование пользователей",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Добавление пользователя"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Редактирование пользователя"
+      }
+    }
+  }
+}

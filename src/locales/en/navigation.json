@@ -1,0 +1,143 @@
+{
+  "schedule": {
+    "sidebar": "Schedule",
+    "breadcrumb": "Your Schedule"
+  },
+  "gradebooks": {
+    "sidebar": "Gradebooks",
+    "breadcrumb": "Your Gradebooks"
+  },
+  "organigram": {
+    "sidebar": "Organigram",
+    "breadcrumb": "Organizational Structure",
+    "faculties": {
+      "sidebar": "Faculties",
+      "breadcrumb": "University Faculties",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Create Faculty"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Faculty"
+      }
+    },
+    "specialities": {
+      "sidebar": "Specialities",
+      "breadcrumb": "Specialities",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Speciality"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Speciality"
+      }
+    }
+  },
+  "study-process": {
+    "sidebar": "Study Process",
+    "breadcrumb": "Educational Process",
+    "study-groups": {
+      "sidebar": "Study Groups",
+      "breadcrumb": "All Study Groups",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Study Group"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Study Group"
+      }
+    },
+    "study-disciplines": {
+      "sidebar": "Study Disciplines",
+      "breadcrumb": "Study Disciplines",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Study Discipline"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Study Discipline"
+      }
+    },
+    "study-plans": {
+      "sidebar": "Study Plans",
+      "breadcrumb": "Study Plans",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Study Plan"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Study Plan"
+      }
+    },
+    "study-curriculums": {
+      "sidebar": "Educational Curricula",
+      "breadcrumb": "List of Educational Curricula",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Educational Curriculum"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Educational Curriculum"
+      }
+    },
+    "students-enrolments": {
+      "sidebar": "Student Enrollments",
+      "breadcrumb": "Student Enrollment in Groups",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Register Student in Group"
+      }
+    }
+  },
+  "hr": {
+    "sidebar": "Human Resources",
+    "breadcrumb": "Human Resources",
+    "teachers": {
+      "sidebar": "Teachers",
+      "breadcrumb": "Teaching Staff (Teachers)",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Teacher"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Teacher"
+      }
+    },
+    "students": {
+      "sidebar": "Students",
+      "breadcrumb": "Student Database",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add Student"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit Student"
+      }
+    }
+  },
+
+  "system": {
+    "sidebar": "System",
+    "breadcrumb": "System Management",
+    "users": {
+      "sidebar": "Users",
+      "breadcrumb": "User Administration",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Add User"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Edit User"
+      }
+    }
+  }
+}

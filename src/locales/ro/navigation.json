@@ -1,0 +1,142 @@
+{
+  "schedule": {
+    "sidebar": "Orar",
+    "breadcrumb": "Orarul tău"
+  },
+  "gradebooks": {
+    "sidebar": "Registre",
+    "breadcrumb": "Registrele tale de note"
+  },
+  "organigram": {
+    "sidebar": "Organigramă",
+    "breadcrumb": "Structura organizațională",
+    "faculties": {
+      "sidebar": "Facultăți",
+      "breadcrumb": "Facultățile universității",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Creare facultate"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare facultate"
+      }
+    },
+    "specialities": {
+      "sidebar": "Specialități",
+      "breadcrumb": "Specialități",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare specialitate"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare specialitate"
+      }
+    }
+  },
+  "study-process": {
+    "sidebar": "Proces educațional",
+    "breadcrumb": "Procesul educațional",
+    "study-groups": {
+      "sidebar": "Grupuri de studiu",
+      "breadcrumb": "Toate grupurile de studiu",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare grupă de studiu"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare grupă de studiu"
+      }
+    },
+    "study-disciplines": {
+      "sidebar": "Disciplinele de studiu",
+      "breadcrumb": "Disciplinele de studiu",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare disciplină de studiu"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare disciplină de studiu"
+      }
+    },
+    "study-plans": {
+      "sidebar": "Planuri de învățământ",
+      "breadcrumb": "Planuri de învățământ",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare plan de învățământ"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare plan de învățământ"
+      }
+    },
+    "study-curriculums": {
+      "sidebar": "Curricule educaționale",
+      "breadcrumb": "Lista de curricule educaționale",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare curriculă educațională"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare curriculă educațională"
+      }
+    },
+    "students-enrolments": {
+      "sidebar": "Înregistrarea studenților",
+      "breadcrumb": "Înregistrarea studenților în grupe",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Înregistrare student în grupă"
+      }
+    }
+  },
+  "hr": {
+    "sidebar": "Resurse umane",
+    "breadcrumb": "Resurse umane",
+    "teachers": {
+      "sidebar": "Profesori",
+      "breadcrumb": "Personal didactic(profesori)",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare profesor"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare profesor"
+      }
+    },
+    "students": {
+      "sidebar": "Studenți",
+      "breadcrumb": "Baza de date a studenților",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare student"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare student"
+      }
+    }
+  },
+  "system": {
+    "sidebar": "Sistem",
+    "breadcrumb": "Managementul sistemului",
+    "users": {
+      "sidebar": "Utilizatori",
+      "breadcrumb": "Administrarea utilizatorilor",
+      "create": {
+        "sidebar": null,
+        "breadcrumb": "Adăugare utilizator"
+      },
+      "edit": {
+        "sidebar": null,
+        "breadcrumb": "Editare utilizator"
+      }
+    }
+  }
+}

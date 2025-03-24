@@ -1,0 +1,106 @@
+[
+  {
+    "id": "schedule",
+    "path": "schedule",
+    "labelKey": "schedule",
+    "icon": "CalendarMonth"
+  },
+  {
+    "id": "gradebooks",
+    "path": "gradebooks",
+    "labelKey": "gradebooks",
+    "icon": "Assessment"
+  },
+  {
+    "id": "organigram",
+    "path": "organigram",
+    "labelKey": "organigram",
+    "icon": "AccountTree",
+    "children": [
+      {
+        "id": "faculties",
+        "path": "organigram/faculties",
+        "labelKey": "organigram.faculties",
+        "icon": "FormatListBulleted"
+      },
+      {
+        "id": "specialities",
+        "path": "organigram/specialities",
+        "labelKey": "organigram.specialities",
+        "icon": "FormatListNumbered"
+      }
+    ]
+  },
+  {
+    "id": "study-process",
+    "path": "study-process",
+    "labelKey": "study-process",
+    "icon": "MenuBook",
+    "children": [
+      {
+        "id": "study-groups",
+        "path": "study-process/study-groups",
+        "labelKey": "study-process.study-groups",
+        "icon": "People"
+      },
+      {
+        "id": "study-disciplines",
+        "path": "study-process/study-disciplines",
+        "labelKey": "study-process.study-disciplines",
+        "icon": "LibraryBooks"
+      },
+      {
+        "id": "study-plans",
+        "path": "study-process/study-plans",
+        "labelKey": "study-process.study-plans",
+        "icon": "ListAlt"
+      },
+      {
+        "id": "study-curriculums",
+        "path": "study-process/study-curriculums",
+        "labelKey": "study-process.study-curriculums",
+        "icon": "Subject"
+      },
+      {
+        "id": "students-enrolments",
+        "path": "study-process/students-enrolments",
+        "labelKey": "study-process.students-enrolments",
+        "icon": "PersonAdd"
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "path": "hr",
+    "labelKey": "hr",
+    "icon": "AccountBox",
+    "children": [
+      {
+        "id": "teachers",
+        "path": "hr/teachers",
+        "labelKey": "hr.teachers",
+        "icon": "Psychology"
+      },
+      {
+        "id": "students",
+        "path": "hr/students",
+        "labelKey": "hr.students",
+        "icon": "School"
+      }
+    ]
+  },
+  {
+    "id": "system",
+    "path": "system",
+    "labelKey": "system",
+    "icon": "Settings",
+    "children": [
+      {
+        "id": "system/users",
+        "path": null,
+        "labelKey": "system.users",
+        "icon": "People"
+      }
+    ]
+  }
+]
