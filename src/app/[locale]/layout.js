@@ -2,7 +2,7 @@ import {Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import Navigation from "@/components/navigation/Navigation";
+import Navigation from "@/components/navigation";
 import { notFound } from 'next/navigation';
 import {routing} from '@/i18n/routing';
 

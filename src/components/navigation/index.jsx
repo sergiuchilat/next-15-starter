@@ -2,20 +2,20 @@
 import {useState} from "react";
 import useGetUserRole from "@/hooks/useGetUserRole";
 import useNavigationTree from "@/hooks/navigation/useNavigationTree";
-import NavBar from "@/components/navigation/NavBar/NavBar";
-import SideBarNav from "@/components/navigation/SideBar/SideBarNav";
-import BreadCrumbs from "@/components/navigation/BreadCrumbs/BreadCrumbs";
+import NavBar from "@/components/navigation/NavBar";
+import SideBar from "@/components/navigation/SideBar";
+import BreadCrumbs from "@/components/navigation/BreadCrumbs";
 
 export default function Navigation() {
   const [sidebarOpened, setSidebarOpened] = useState(false);
-  const [sidebarAccessed, setSidebarAccessed] = useState(false);
   const userRole = useGetUserRole();
 
-  const {navigationTree, loadingNavigation, errorLoadingNavigation} =
+  const {navigationTree} =
     useNavigationTree(userRole);
 
   const toggleSidebar = () => {
-    setSidebarAccessed(true)
+    console.log("toggleSidebar", sidebarOpened);
+    console.log(navigationTree)
     setSidebarOpened((prev) => !prev);
   };
 
@@ -23,12 +23,9 @@ export default function Navigation() {
     <>
       <NavBar toggleSidebar={toggleSidebar}/>
 
-      {loadingNavigation && <div>Loading navigation...</div>}
-      {errorLoadingNavigation && <div>Error loading navigation</div>}
-      { sidebarAccessed && navigationTree?.length > 0 && (
-        <SideBarNav
+      {sidebarOpened && (
+        <SideBar
           items={navigationTree}
-          open={sidebarOpened}
           toggleSidebar={toggleSidebar}
         />
       )}

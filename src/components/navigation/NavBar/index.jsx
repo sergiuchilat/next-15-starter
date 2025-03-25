@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import SwitchLanguage from "@/components/navigation/NavBar/SwitchLanguage";
+import LanguageSwitcher from "@/components/navigation/NavBar/LanguageSwitcher";
 
 export default function NavBar({ toggleSidebar }) {
   return (
@@ -24,7 +24,7 @@ export default function NavBar({ toggleSidebar }) {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           News
         </Typography>
-        <SwitchLanguage/>
+        <LanguageSwitcher/>
         <Button color="inherit">Login</Button>
       </Toolbar>
     </AppBar>

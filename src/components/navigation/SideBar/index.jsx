@@ -1,20 +1,21 @@
-import {Drawer, TextField} from "@mui/material";
-import SideBarItems from "./SideBarItems";
+import {debounce, Drawer, TextField} from "@mui/material";
+import SideBarItems from "./Items";
 import {useState} from "react";
 import {useTranslations} from "next-intl";
 
-export default function SideBarNav({items, open, toggleSidebar}) {
+export default function SideBar({items, toggleSidebar}) {
   const [filteredItems, setFilteredItems] = useState(items);
   const t = useTranslations('navigation');
-
+  console.log(items)
   const filterItems = (e) => {
+    console.log('filterItems', e.target.value);
     const value = e.target.value;
 
-    const filter = (items) => {
-      return items.filter((item) => {
+    const filter = (unfilteredItems) => {
+      return unfilteredItems.filter((item) => {
         const matches = t(`${item.labelKey}.sidebar`).toLowerCase().includes(value.toLowerCase());
         if (item.children) {
-          item.children = filter(item.children);
+          item.children = [...filter(item.children)];
         }
         return matches || (item.children && item.children.length > 0);
       });
@@ -29,10 +30,10 @@ export default function SideBarNav({items, open, toggleSidebar}) {
   };
 
   return (
-    <Drawer anchor="left" open={open} onClose={toggleSidebar}>
-      <div className = {'sidebar-nav'}>
-        <TextField onChange={filterItems} />
-        <SideBarItems items={filteredItems} />
+    <Drawer anchor="left" open onClose={toggleSidebar}>
+      <div className={'sidebar-nav'}>
+        <TextField onChange={filterItems}/>
+        <SideBarItems items={filteredItems}/>
       </div>
     </Drawer>
   );
